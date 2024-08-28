@@ -23,6 +23,7 @@ document.getElementById('addTaskButton').addEventListener('click', function() {
 
         li.appendChild(checkIcon);
         li.appendChild(deleteIcon);
+        
         li.appendChild(taskIcon);
 
         taskList.appendChild(li);
